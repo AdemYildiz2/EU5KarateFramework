@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports  - Feature: features/BookItTests.feature</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>demo</td>
+            <td>18 Sep 2021, 23:00</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Feature Report</h2>
+      </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        
+<thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+        <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">features/BookItTests.feature</td>
+                    <td      class="passed"    >51</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">51</td>
+
+          <td  class="passed"    >2</td>
+          <td >0</td>
+          <td class="total">2</td>
+
+          <td class="duration" data-value="3519821800">3s 519ms</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+        
+<div class="tags indention">
+  </div>
+
+        
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">features/BookItTests.feature</span>
+  
+
+  </div>
+
+        <div class="description indention">Bookit Api tests</div>
+
+        <div class="elements inner-level">
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1s 255ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def baseUrl = 'https://cybertek-reservation-api-qa2.herokuapp.com/'</span>
+  
+  <span class="lead-duration duration">009ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>23:00:03.384 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def AuthFeature = call read('classpath:features/BookItAuth.feature')</span>
+  
+  <span class="lead-duration duration">614ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/BookItAuth.feature</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url 'https://cybertek-reservation-api-qa2.herokuapp.com/'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">path 'sign'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">header Accept = 'application/json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">param email = 'sbirdbj@fc2.com'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">param password = 'asenorval'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">591ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>23:00:03.412 request:
+1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&amp;password=asenorval
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:04.002 response time in milliseconds: 583.51
+1 &lt; 200
+1 &lt; Connection: close
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sat, 18 Sep 2021 22:00:04 GMT
+1 &lt; Server: Jetty(9.4.8.v20171121)
+1 &lt; Via: 1.1 vegur
+{&quot;accessToken&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE&quot;,&quot;refreshToken&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE&quot;}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print response.accessToken</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>23:00:04.004 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">def token = response.accessToken</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">def name = 'Stevan'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def accessToken = AuthFeature.token</span>
+  
+  <span class="lead-duration duration">016ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def firstname = AuthFeature.name</span>
+  
+  <span class="lead-duration duration">005ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print firstname</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>23:00:04.031 [print] Stevan</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'Taken from Background',accessToken</span>
+  
+  <span class="lead-duration duration">013ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>23:00:04.045 [print] Taken from Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">502ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">get user information</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-8" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-9" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url baseUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">path 'api/users/me'</span>
+  
+  <span class="lead-duration duration">003ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + accessToken</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Accept = 'application/json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method get</span>
+  
+  <span class="lead-duration duration">492ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>23:00:04.057 request:
+1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/api/users/me
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:04.547 response time in milliseconds: 480.18
+1 &lt; 200
+1 &lt; Connection: close
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sat, 18 Sep 2021 22:00:05 GMT
+1 &lt; Server: Jetty(9.4.8.v20171121)
+1 &lt; Via: 1.1 vegur
+{&quot;id&quot;:57,&quot;firstName&quot;:&quot;Ase&quot;,&quot;lastName&quot;:&quot;Norval&quot;,&quot;role&quot;:&quot;student-team-leader&quot;}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>23:00:04.548 [print] {
+  &quot;firstName&quot;: &quot;Ase&quot;,
+  &quot;lastName&quot;: &quot;Norval&quot;,
+  &quot;role&quot;: &quot;student-team-leader&quot;,
+  &quot;id&quot;: 57
+}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match response =={&quot;id&quot;:57,&quot;firstName&quot;:&quot;Ase&quot;,&quot;lastName&quot;:&quot;Norval&quot;,&quot;role&quot;:&quot;student-team-leader&quot;}</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">1s 274ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-12">
+    
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-12" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-13" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def baseUrl = 'https://cybertek-reservation-api-qa2.herokuapp.com/'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>23:00:03.413 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def AuthFeature = call read('classpath:features/BookItAuth.feature')</span>
+  
+  <span class="lead-duration duration">639ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention"></span>
+  <span class="name">features/BookItAuth.feature</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url 'https://cybertek-reservation-api-qa2.herokuapp.com/'</span>
+  
+  <span class="lead-duration duration">001ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">path 'sign'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">header Accept = 'application/json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">param email = 'sbirdbj@fc2.com'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">param password = 'asenorval'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">609ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>23:00:03.424 request:
+1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/sign?email=sbirdbj%40fc2.com&amp;password=asenorval
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:04.031 response time in milliseconds: 601.79
+1 &lt; 200
+1 &lt; Connection: close
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sat, 18 Sep 2021 22:00:04 GMT
+1 &lt; Server: Jetty(9.4.8.v20171121)
+1 &lt; Via: 1.1 vegur
+{&quot;accessToken&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE&quot;,&quot;refreshToken&quot;:&quot;eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE&quot;}</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">print response.accessToken</span>
+  
+  <span class="lead-duration duration">013ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-16">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-16" class="collapse collapsable-details">
+        <pre>23:00:04.045 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">def token = response.accessToken</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">def name = 'Stevan'</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def accessToken = AuthFeature.token</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def firstname = AuthFeature.name</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print firstname</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details">
+        <pre>23:00:04.055 [print] Stevan</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">print 'Taken from Background',accessToken</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>23:00:04.055 [print] Taken from Background eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">487ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-19">
+    
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">get campus information</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-19" class="collapse collapsable-details ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-20">
+    
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-20" class="inner-level collapse collapsable-details ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url baseUrl</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">path 'api/campuses'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Authorization = 'Bearer ' + accessToken</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">header Accept = 'application/json'</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method GET</span>
+  
+  <span class="lead-duration duration">478ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details">
+        <pre>23:00:04.060 request:
+1 &gt; GET https://cybertek-reservation-api-qa2.herokuapp.com/api/campuses
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI1NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1sZWFkZXIifQ.a_N9URDBPGOMcDdEVoaMHsJtk3jOnig0v0SCtSWcsGE
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: cybertek-reservation-api-qa2.herokuapp.com
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:04.537 response time in milliseconds: 472.64
+1 &lt; 200
+1 &lt; Connection: close
+1 &lt; Content-Type: application/json
+1 &lt; Date: Sat, 18 Sep 2021 22:00:05 GMT
+1 &lt; Server: Jetty(9.4.8.v20171121)
+1 &lt; Via: 1.1 vegur
+[{&quot;id&quot;:1,&quot;location&quot;:&quot;VA&quot;,&quot;clusters&quot;:[{&quot;id&quot;:3,&quot;name&quot;:&quot;light-side&quot;,&quot;rooms&quot;:[{&quot;id&quot;:111,&quot;name&quot;:&quot;mit&quot;,&quot;description&quot;:&quot;mens et manus&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:112,&quot;name&quot;:&quot;harvard&quot;,&quot;description&quot;:&quot;veritas&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:false},{&quot;id&quot;:113,&quot;name&quot;:&quot;yale&quot;,&quot;description&quot;:&quot;lux et veritas&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:false},{&quot;id&quot;:114,&quot;name&quot;:&quot;princeton&quot;,&quot;description&quot;:&quot;dei sub numine viget&quot;,&quot;capacity&quot;:4,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:false},{&quot;id&quot;:115,&quot;name&quot;:&quot;stanford&quot;,&quot;description&quot;:&quot;die luft der freiheit weht&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:false,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:116,&quot;name&quot;:&quot;duke&quot;,&quot;description&quot;:&quot;eruditio et religio&quot;,&quot;capacity&quot;:4,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:false},{&quot;id&quot;:117,&quot;name&quot;:&quot;berkeley&quot;,&quot;description&quot;:&quot;fiat lux&quot;,&quot;capacity&quot;:4,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:false}]},{&quot;id&quot;:4,&quot;name&quot;:&quot;dark-side&quot;,&quot;rooms&quot;:[{&quot;id&quot;:121,&quot;name&quot;:&quot;kilimanjaro&quot;,&quot;description&quot;:&quot;it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:122,&quot;name&quot;:&quot;half dome&quot;,&quot;description&quot;:&quot;faith moves mountains&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:123,&quot;name&quot;:&quot;denali&quot;,&quot;description&quot;:&quot;you can\u0027t move mountains by whispering at them&quot;,&quot;capacity&quot;:4,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:124,&quot;name&quot;:&quot;meru&quot;,&quot;description&quot;:&quot;every mountain top is within reach if you just keep climbing&quot;,&quot;capacity&quot;:4,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true}]}]}, {&quot;id&quot;:2,&quot;location&quot;:&quot;IL&quot;,&quot;clusters&quot;:[{&quot;id&quot;:5,&quot;name&quot;:&quot;il&quot;,&quot;rooms&quot;:[{&quot;id&quot;:211,&quot;name&quot;:&quot;google&quot;,&quot;description&quot;:&quot;don\u0027t be evil&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:212,&quot;name&quot;:&quot;apple&quot;,&quot;description&quot;:&quot;think different&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:213,&quot;name&quot;:&quot;microsoft&quot;,&quot;description&quot;:&quot;be what\u0027s next&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:214,&quot;name&quot;:&quot;bay_area&quot;,&quot;description&quot;:&quot;make future&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:215,&quot;name&quot;:&quot;amazon&quot;,&quot;description&quot;:&quot;work hard. have fun. make history&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:216,&quot;name&quot;:&quot;tesla&quot;,&quot;description&quot;:&quot;just do it&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true},{&quot;id&quot;:217,&quot;name&quot;:&quot;facebook&quot;,&quot;description&quot;:&quot;move fast and break things&quot;,&quot;capacity&quot;:6,&quot;withTV&quot;:true,&quot;withWhiteBoard&quot;:true}]}]}]</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">print response</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details">
+        <pre>23:00:04.538 [print] [
+  {
+    &quot;location&quot;: &quot;VA&quot;,
+    &quot;id&quot;: 1,
+    &quot;clusters&quot;: [
+      {
+        &quot;rooms&quot;: [
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;mit&quot;,
+            &quot;description&quot;: &quot;mens et manus&quot;,
+            &quot;id&quot;: 111,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;harvard&quot;,
+            &quot;description&quot;: &quot;veritas&quot;,
+            &quot;id&quot;: 112,
+            &quot;withWhiteBoard&quot;: false,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;yale&quot;,
+            &quot;description&quot;: &quot;lux et veritas&quot;,
+            &quot;id&quot;: 113,
+            &quot;withWhiteBoard&quot;: false,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;princeton&quot;,
+            &quot;description&quot;: &quot;dei sub numine viget&quot;,
+            &quot;id&quot;: 114,
+            &quot;withWhiteBoard&quot;: false,
+            &quot;capacity&quot;: 4
+          },
+          {
+            &quot;withTV&quot;: false,
+            &quot;name&quot;: &quot;stanford&quot;,
+            &quot;description&quot;: &quot;die luft der freiheit weht&quot;,
+            &quot;id&quot;: 115,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;duke&quot;,
+            &quot;description&quot;: &quot;eruditio et religio&quot;,
+            &quot;id&quot;: 116,
+            &quot;withWhiteBoard&quot;: false,
+            &quot;capacity&quot;: 4
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;berkeley&quot;,
+            &quot;description&quot;: &quot;fiat lux&quot;,
+            &quot;id&quot;: 117,
+            &quot;withWhiteBoard&quot;: false,
+            &quot;capacity&quot;: 4
+          }
+        ],
+        &quot;name&quot;: &quot;light-side&quot;,
+        &quot;id&quot;: 3
+      },
+      {
+        &quot;rooms&quot;: [
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;kilimanjaro&quot;,
+            &quot;description&quot;: &quot;it isn't the mountains ahead to climb that wear you out, it's the pebble in your shoe&quot;,
+            &quot;id&quot;: 121,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;half dome&quot;,
+            &quot;description&quot;: &quot;faith moves mountains&quot;,
+            &quot;id&quot;: 122,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;denali&quot;,
+            &quot;description&quot;: &quot;you can't move mountains by whispering at them&quot;,
+            &quot;id&quot;: 123,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 4
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;meru&quot;,
+            &quot;description&quot;: &quot;every mountain top is within reach if you just keep climbing&quot;,
+            &quot;id&quot;: 124,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 4
+          }
+        ],
+        &quot;name&quot;: &quot;dark-side&quot;,
+        &quot;id&quot;: 4
+      }
+    ]
+  },
+  {
+    &quot;location&quot;: &quot;IL&quot;,
+    &quot;id&quot;: 2,
+    &quot;clusters&quot;: [
+      {
+        &quot;rooms&quot;: [
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;google&quot;,
+            &quot;description&quot;: &quot;don't be evil&quot;,
+            &quot;id&quot;: 211,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;apple&quot;,
+            &quot;description&quot;: &quot;think different&quot;,
+            &quot;id&quot;: 212,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;microsoft&quot;,
+            &quot;description&quot;: &quot;be what's next&quot;,
+            &quot;id&quot;: 213,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;bay_area&quot;,
+            &quot;description&quot;: &quot;make future&quot;,
+            &quot;id&quot;: 214,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;amazon&quot;,
+            &quot;description&quot;: &quot;work hard. have fun. make history&quot;,
+            &quot;id&quot;: 215,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;tesla&quot;,
+            &quot;description&quot;: &quot;just do it&quot;,
+            &quot;id&quot;: 216,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          },
+          {
+            &quot;withTV&quot;: true,
+            &quot;name&quot;: &quot;facebook&quot;,
+            &quot;description&quot;: &quot;move fast and break things&quot;,
+            &quot;id&quot;: 217,
+            &quot;withWhiteBoard&quot;: true,
+            &quot;capacity&quot;: 6
+          }
+        ],
+        &quot;name&quot;: &quot;il&quot;,
+        &quot;id&quot;: 5
+      }
+    ]
+  }
+]</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">def expectedCampuses = read('classpath:data/campuses.json')</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">match response ==expectedCampuses</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

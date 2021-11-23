@@ -1,0 +1,2338 @@
+<testsuite failures="0" name="features/DataDrivenTests.feature" skipped="0" tests="22" time="14.455989">
+  <testcase classname="features.DataDrivenTests" name="get token for user sbirdbj@fc2.com" time="0.61845">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user htwinbrowb4@blogspot.com" time="0.61017">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user dfrederickb5@yellowbook.com" time="0.589479">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user apainb6@google.co.jp" time="0.580116">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user fbawmeb7@studiopress.com" time="0.565875">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user mnewbatt8o@utexas.edu" time="0.577676">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user wamiss8p@businesswire.com" time="0.563538">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user mstacey8r@imdb.com" time="0.557806">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user ecrasford8s@dagondesign.com" time="0.584956">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user gwilloway8t@nih.gov" time="0.570235">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user hurey8u@go.com" time="0.582767">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user dronaghan8v@google.ca" time="0.580625">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user fvaughn8w@state.gov" time="0.578714">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user nanthony8x@ocn.ne.jp" time="0.572945">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user iclementet8y@bluehost.com" time="0.574346">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user ftabrett8z@latimes.com" time="0.590758">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ftabrett8z@latimes.com' ................................ passed
+And param password = 'beveriestouther' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user lbraunthal90@reverbnation.com" time="0.575581">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ftabrett8z@latimes.com' ................................ passed
+And param password = 'beveriestouther' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lbraunthal90@reverbnation.com' ......................... passed
+And param password = 'mollycossor' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user bgreensmith91@nytimes.com" time="0.580832">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ftabrett8z@latimes.com' ................................ passed
+And param password = 'beveriestouther' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lbraunthal90@reverbnation.com' ......................... passed
+And param password = 'mollycossor' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'bgreensmith91@nytimes.com' ............................. passed
+And param password = 'elbertlaye' ......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user karzu92@istockphoto.com" time="0.58768">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ftabrett8z@latimes.com' ................................ passed
+And param password = 'beveriestouther' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lbraunthal90@reverbnation.com' ......................... passed
+And param password = 'mollycossor' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'bgreensmith91@nytimes.com' ............................. passed
+And param password = 'elbertlaye' ......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'karzu92@istockphoto.com' ............................... passed
+And param password = 'weidarfarrell' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user lruffli93@dailymail.co.uk" time="0.562106">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ftabrett8z@latimes.com' ................................ passed
+And param password = 'beveriestouther' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lbraunthal90@reverbnation.com' ......................... passed
+And param password = 'mollycossor' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'bgreensmith91@nytimes.com' ............................. passed
+And param password = 'elbertlaye' ......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'karzu92@istockphoto.com' ............................... passed
+And param password = 'weidarfarrell' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lruffli93@dailymail.co.uk' ............................. passed
+And param password = 'menardnewbatt' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get token for user teachervawiltonamiss@gmail.com" time="0.561095">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ftabrett8z@latimes.com' ................................ passed
+And param password = 'beveriestouther' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lbraunthal90@reverbnation.com' ......................... passed
+And param password = 'mollycossor' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'bgreensmith91@nytimes.com' ............................. passed
+And param password = 'elbertlaye' ......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'karzu92@istockphoto.com' ............................... passed
+And param password = 'weidarfarrell' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lruffli93@dailymail.co.uk' ............................. passed
+And param password = 'menardnewbatt' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'teachervawiltonamiss@gmail.com' ........................ passed
+And param password = 'wiltonamiss' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.DataDrivenTests" name="get user information verification(Database vs API)" time="2.29024">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'htwinbrowb4@blogspot.com' .............................. passed
+And param password = 'kanyabang' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dfrederickb5@yellowbook.com' ........................... passed
+And param password = 'engraciahuc' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'apainb6@google.co.jp' .................................. passed
+And param password = 'rosettalightollers' ................................. passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fbawmeb7@studiopress.com' .............................. passed
+And param password = 'sherilyngohn' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mnewbatt8o@utexas.edu' ................................. passed
+And param password = 'opalcave' ........................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'wamiss8p@businesswire.com' ............................. passed
+And param password = 'olagrills' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'mstacey8r@imdb.com' .................................... passed
+And param password = 'skylargiblin' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ecrasford8s@dagondesign.com' ........................... passed
+And param password = 'bricesiddell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'gwilloway8t@nih.gov' ................................... passed
+And param password = 'morrievondrach' ..................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'hurey8u@go.com' ........................................ passed
+And param password = 'elenemaynell' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'dronaghan8v@google.ca' ................................. passed
+And param password = 'nonnayablsley' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'fvaughn8w@state.gov' ................................... passed
+And param password = 'jojorowesby' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'nanthony8x@ocn.ne.jp' .................................. passed
+And param password = 'hernandosmetoun' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'iclementet8y@bluehost.com' ............................. passed
+And param password = 'ursalaklimes' ....................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'ftabrett8z@latimes.com' ................................ passed
+And param password = 'beveriestouther' .................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lbraunthal90@reverbnation.com' ......................... passed
+And param password = 'mollycossor' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'bgreensmith91@nytimes.com' ............................. passed
+And param password = 'elbertlaye' ......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'karzu92@istockphoto.com' ............................... passed
+And param password = 'weidarfarrell' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'lruffli93@dailymail.co.uk' ............................. passed
+And param password = 'menardnewbatt' ...................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'teachervawiltonamiss@gmail.com' ........................ passed
+And param password = 'wiltonamiss' ........................................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+* def DBUtils = Java.type('utilities.DBUtils') ............................ passed
+* def query = "select id,firstname,lastname, role from users where email='sbirdbj@fc2.com'" . passed
+* def dbResult = DBUtils.getRowMap(query) ................................. passed
+* print 'FROM DB', dbResult ............................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'api/users/me' ................................................... passed
+And header Authorization = 'Bearer ' + token .............................. passed
+And header Accept = 'application/json' .................................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And print response ........................................................ passed
+Then match response.id ==dbResult.id ...................................... passed
+Then match response.firstName ==dbResult.firstname ........................ passed
+Then match response.lastName ==dbResult.lastname .......................... passed
+Then match response.role ==dbResult.role .................................. passed</system-out>
+  </testcase>
+</testsuite>

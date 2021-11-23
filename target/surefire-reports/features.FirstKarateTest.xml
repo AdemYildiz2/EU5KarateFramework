@@ -1,0 +1,117 @@
+<testsuite failures="0" name="features/FirstKarateTest.feature" skipped="0" tests="7" time="0.076392">
+  <testcase classname="features.FirstKarateTest" name="how to print" time="0.010104">
+    <system-out>Given print "Hello World" ................................................. passed
+When print 'another print' ................................................ passed
+Then print 'then print' ................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.FirstKarateTest" name="more printing" time="0.010361">
+    <system-out>Given print "Hello World" ................................................. passed
+When print 'another print' ................................................ passed
+Then print 'then print' ................................................... passed
+Given print 'some words to print' ......................................... passed
+* print my name is','karate kid' .......................................... passed
+* print 2+2 ............................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.FirstKarateTest" name="variables" time="0.008044">
+    <system-out>Given print "Hello World" ................................................. passed
+When print 'another print' ................................................ passed
+Then print 'then print' ................................................... passed
+Given print 'some words to print' ......................................... passed
+* print my name is','karate kid' .......................................... passed
+* print 2+2 ............................................................... passed
+* def name = 'Mike' ....................................................... passed
+* print 'my name is', name ................................................ passed
+* def age = 20 ............................................................ passed
+* print name, 'is', age, 'years old' ...................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.FirstKarateTest" name="difficult parameters: json object" time="0.004377">
+    <system-out>Given print "Hello World" ................................................. passed
+When print 'another print' ................................................ passed
+Then print 'then print' ................................................... passed
+Given print 'some words to print' ......................................... passed
+* print my name is','karate kid' .......................................... passed
+* print 2+2 ............................................................... passed
+* def name = 'Mike' ....................................................... passed
+* print 'my name is', name ................................................ passed
+* def age = 20 ............................................................ passed
+* print name, 'is', age, 'years old' ...................................... passed
+* def student = {'name':'sam','owes_tuition':false} ....................... passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.owes_tuition .............................................. passed</system-out>
+  </testcase>
+  <testcase classname="features.FirstKarateTest" name="json object 2" time="0.013981">
+    <system-out>Given print "Hello World" ................................................. passed
+When print 'another print' ................................................ passed
+Then print 'then print' ................................................... passed
+Given print 'some words to print' ......................................... passed
+* print my name is','karate kid' .......................................... passed
+* print 2+2 ............................................................... passed
+* def name = 'Mike' ....................................................... passed
+* print 'my name is', name ................................................ passed
+* def age = 20 ............................................................ passed
+* print name, 'is', age, 'years old' ...................................... passed
+* def student = {'name':'sam','owes_tuition':false} ....................... passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.owes_tuition .............................................. passed
+* def student = ........................................................... passed
+* print student.firstName ................................................. passed
+* print student.lastName .................................................. passed
+* print student.salary .................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.FirstKarateTest" name="Spartan Variable" time="0.01328">
+    <system-out>Given print "Hello World" ................................................. passed
+When print 'another print' ................................................ passed
+Then print 'then print' ................................................... passed
+Given print 'some words to print' ......................................... passed
+* print my name is','karate kid' .......................................... passed
+* print 2+2 ............................................................... passed
+* def name = 'Mike' ....................................................... passed
+* print 'my name is', name ................................................ passed
+* def age = 20 ............................................................ passed
+* print name, 'is', age, 'years old' ...................................... passed
+* def student = {'name':'sam','owes_tuition':false} ....................... passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.owes_tuition .............................................. passed
+* def student = ........................................................... passed
+* print student.firstName ................................................. passed
+* print student.lastName .................................................. passed
+* print student.salary .................................................... passed
+* def spartan = ........................................................... passed
+* print spartan.name ...................................................... passed
+* print spartan.gender .................................................... passed
+* print spartan.id ........................................................ passed
+* print spartan.phone ..................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.FirstKarateTest" name="json array object" time="0.016244">
+    <system-out>Given print "Hello World" ................................................. passed
+When print 'another print' ................................................ passed
+Then print 'then print' ................................................... passed
+Given print 'some words to print' ......................................... passed
+* print my name is','karate kid' .......................................... passed
+* print 2+2 ............................................................... passed
+* def name = 'Mike' ....................................................... passed
+* print 'my name is', name ................................................ passed
+* def age = 20 ............................................................ passed
+* print name, 'is', age, 'years old' ...................................... passed
+* def student = {'name':'sam','owes_tuition':false} ....................... passed
+* print student ........................................................... passed
+* print student.name ...................................................... passed
+* print student.owes_tuition .............................................. passed
+* def student = ........................................................... passed
+* print student.firstName ................................................. passed
+* print student.lastName .................................................. passed
+* print student.salary .................................................... passed
+* def spartan = ........................................................... passed
+* print spartan.name ...................................................... passed
+* print spartan.gender .................................................... passed
+* print spartan.id ........................................................ passed
+* print spartan.phone ..................................................... passed
+* def students = .......................................................... passed
+* print students .......................................................... passed
+* print students[0].name .................................................. passed
+* print students[1].owes_tuition .......................................... passed</system-out>
+  </testcase>
+</testsuite>

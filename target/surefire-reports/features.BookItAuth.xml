@@ -1,0 +1,14 @@
+<testsuite failures="0" name="features/BookItAuth.feature" skipped="0" tests="1" time="1.173908">
+  <testcase classname="features.BookItAuth" name="get one user token" time="1.173908">
+    <system-out>Given url 'https://cybertek-reservation-api-qa2.herokuapp.com/' ........... passed
+And path 'sign' ........................................................... passed
+And header Accept = 'application/json' .................................... passed
+And param email = 'sbirdbj@fc2.com' ....................................... passed
+And param password = 'asenorval' .......................................... passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And print response.accessToken ............................................ passed
+And def token = response.accessToken ...................................... passed
+And def name = 'Stevan' ................................................... passed</system-out>
+  </testcase>
+</testsuite>

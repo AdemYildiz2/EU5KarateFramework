@@ -1,0 +1,71 @@
+<testsuite failures="2" name="features/ApiTest1.feature" skipped="0" tests="4" time="4.156698">
+  <testcase classname="features.ApiTest1" name="basic test with status code validation" time="1.031335">
+    <system-out>Given url 'https://api.exchangeratesapi.io/latest' ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.ApiTest1" name="get rates fro specific day" time="1.032638">
+    <system-out>Given url 'https://api.exchangeratesapi.io/latest' ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://api.exchangeratesapi.io/2010-01-12' .................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.ApiTest1" name="header verification" time="1.045955">
+    <failure message="ApiTest1.feature:18 - path: $['Vary'][0], actual: null, expected: 'Accept-Encoding', reason: actual json-path does not exist">Given url 'https://api.exchangeratesapi.io/latest' ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://api.exchangeratesapi.io/2010-01-12' .................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://api.exchangeratesapi.io/2010-01-12' .................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match header Content-Type == 'application/json; Charset=UTF-8' ........ passed
+And match header Vary == 'Accept-Encoding' ................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ApiTest1.feature:18 - path: $['Vary'][0], actual: null, expected: 'Accept-Encoding', reason: actual json-path does not exist&#13;
+	at ✽.And match header Vary == 'Accept-Encoding' (ApiTest1.feature:18)&#13;
+
+And match header Connection == 'keep-alive' ............................... skipped
+And match header Date == '#present' ....................................... skipped</failure>
+  </testcase>
+  <testcase classname="features.ApiTest1" name="header verification" time="1.046769">
+    <failure message="ApiTest1.feature:34 - path: $.base, actual: null, expected: 'EUR', reason: actual json-path does not exist">Given url 'https://api.exchangeratesapi.io/latest' ........................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://api.exchangeratesapi.io/2010-01-12' .................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://api.exchangeratesapi.io/2010-01-12' .................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match header Content-Type == 'application/json; Charset=UTF-8' ........ passed
+And match header Vary == 'Accept-Encoding' ................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ApiTest1.feature:18 - path: $['Vary'][0], actual: null, expected: 'Accept-Encoding', reason: actual json-path does not exist&#13;
+	at ✽.And match header Vary == 'Accept-Encoding' (ApiTest1.feature:18)&#13;
+
+And match header Connection == 'keep-alive' ............................... skipped
+And match header Date == '#present' ....................................... skipped
+Given url 'https://api.exchangeratesapi.io/2010-01-12' .................... passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match header Content-Type == 'application/json; Charset=UTF-8' ........ passed
+And print response ........................................................ passed
+And print response.base ................................................... passed
+And match response.base == 'EUR' .......................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ApiTest1.feature:34 - path: $.base, actual: null, expected: 'EUR', reason: actual json-path does not exist&#13;
+	at ✽.And match response.base == 'EUR' (ApiTest1.feature:34)&#13;
+
+And print response.rates .................................................. skipped
+And print response.rates.USD .............................................. skipped
+And match response.rates.USD == '#present' ................................ skipped
+And match response.rates.USD == '1.4481' .................................. skipped</failure>
+  </testcase>
+</testsuite>

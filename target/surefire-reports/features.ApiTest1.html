@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<meta charset="utf-8">
+    
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    
+<link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+<link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    
+<link href="favicon.ico" rel="shortcut icon">
+    
+<script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+<title>features.ApiTest1</title>
+  
+</head>
+  
+<body>
+    
+<div id="root-container">
+      
+<div id="leftnav">
+        
+<div class="nav-logo">
+          
+<a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+<div class="nav-count">
+            
+<div class="bg-success" id="nav-pass">2</div>
+            
+<div class="bg-danger" id="nav-fail">2</div>
+          
+</div>
+        
+</div>
+        
+<div id="nav-type">Scenarios</div>         
+        
+<div id="nav-date">2021-09-18 11:00:09 PM</div>        
+      
+<div class="nav-container">
+<div class="nav-item passed">
+<a href="#[1:3]">[1:3] basic test with status code validation </a>
+</div>
+<div class="nav-item passed">
+<a href="#[2:8]">[2:8] get rates fro specific day </a>
+</div>
+<div class="nav-item failed">
+<a href="#[3:13]">[3:13] header verification </a>
+</div>
+<div class="nav-item failed">
+<a href="#[4:26]">[4:26] header verification </a>
+</div>
+</div>
+</div>
+      
+<div id="content">
+      
+<div class="page-heading alert alert-primary">
+<a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">features/ApiTest1.feature</span><span class="feature-description">exchange rate api test</span>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[1:3]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [1:3]</span><span class="scenario-name">basic test with status code validation </span>
+</div>
+<div class="scenario-time passed">ms: 1031</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="1">
+<div class="step-ref passed">1</div>
+<div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/latest'</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="preformatted" data-parent="1">23:00:02.330 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="2">
+<div class="step-ref passed">2</div>
+<div class="step-cell passed">When method GET</div>
+</div>
+<div class="time-cell passed">1028</div>
+</div>
+<div class="preformatted" data-parent="2">23:00:02.843 request:
+1 &gt; GET https://api.exchangeratesapi.io/latest
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:03.372 response time in milliseconds: 521.12
+1 &lt; 200
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 690dd8526a810c49-MAN
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; Charset=UTF-8
+1 &lt; Date: Sat, 18 Sep 2021 22:00:04 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=q1WKbFUhCFkuS7BVHbdkuCkWXqDvNJLhf2YmpWkbbsHNAoTqaGSMnxkay%2FgdvyGMqvKx3SXdt%2FA9AKGqEcxbjmau09oMWDgTcSWAJ8cDZwnX1L0M7nddIQvdHKVE3hP%2FIZxIqQzfnGkI"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; access-control-allow-methods: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS
+1 &lt; access-control-allow-origin: *
+1 &lt; cache-control: no-cache
+1 &lt; x-blocked-at-loadbalancer: 1
+{
+  "success": false,
+  "error": {
+    "code": 101,
+    "type": "missing_access_key",
+    "info": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="3">
+<div class="step-ref passed">3</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[2:8]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [2:8]</span><span class="scenario-name">get rates fro specific day </span>
+</div>
+<div class="scenario-time passed">ms: 1033</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="4">
+<div class="step-ref passed">4</div>
+<div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
+</div>
+<div class="time-cell passed">6</div>
+</div>
+<div class="preformatted" data-parent="4">23:00:02.330 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="5">
+<div class="step-ref passed">5</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">1026</div>
+</div>
+<div class="preformatted" data-parent="5">23:00:02.843 request:
+1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:03.373 response time in milliseconds: 521.09
+1 &lt; 200
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 690dd852690f35d1-MAN
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; Charset=UTF-8
+1 &lt; Date: Sat, 18 Sep 2021 22:00:04 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=jFo%2Bf21E3X1AAfH9G6Ulis7TcvC2zONIjcwXokxFqhGPCkogfYky5D%2B5DS%2BITOgX7eKW2P53MU3QhGrmi4jl8diY3nVSZwiAHYqj9AFNFm%2FdjQ9nYGtfwNwENgDTC%2BJxN4hCjmW200xt"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; access-control-allow-methods: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS
+1 &lt; access-control-allow-origin: *
+1 &lt; cache-control: no-cache
+1 &lt; x-blocked-at-loadbalancer: 1
+{
+  "success": false,
+  "error": {
+    "code": 101,
+    "type": "missing_access_key",
+    "info": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="6">
+<div class="step-ref passed">6</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[3:13]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [3:13]</span><span class="scenario-name">header verification </span>
+</div>
+<div class="scenario-time failed">ms: 1046</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="7">
+<div class="step-ref passed">7</div>
+<div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
+</div>
+<div class="time-cell passed">7</div>
+</div>
+<div class="preformatted" data-parent="7">23:00:02.330 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="8">
+<div class="step-ref passed">8</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">1026</div>
+</div>
+<div class="preformatted" data-parent="8">23:00:02.843 request:
+1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:03.373 response time in milliseconds: 521.03
+1 &lt; 200
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 690dd8526e003601-MAN
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; Charset=UTF-8
+1 &lt; Date: Sat, 18 Sep 2021 22:00:04 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wgSe69SrAomOvI6jyLk3iXIe%2F7Cy%2BhNJJDn9qBJ%2B%2BJo%2F6qadirL%2Bu6HGb7PXObDdA4lnnEU%2BAe1Hj%2BpJMEoYjPLg47JB3jVPd7IfpbtEMEzab8V6FmTGsf6ajGkjaJRAwQRZmh5wn28y"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; access-control-allow-methods: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS
+1 &lt; access-control-allow-origin: *
+1 &lt; cache-control: no-cache
+1 &lt; x-blocked-at-loadbalancer: 1
+{
+  "success": false,
+  "error": {
+    "code": 101,
+    "type": "missing_access_key",
+    "info": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="9">
+<div class="step-ref passed">9</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="10">
+<div class="step-ref passed">10</div>
+<div class="step-cell passed">And match header Content-Type == 'application/json; Charset=UTF-8'</div>
+</div>
+<div class="time-cell passed">8</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="11">
+<div class="step-ref failed">11</div>
+<div class="step-cell failed">And match header Vary == 'Accept-Encoding'</div>
+</div>
+<div class="time-cell failed">4</div>
+</div>
+<div class="preformatted" data-parent="11">23:00:03.389 assertion failed: path: $['Vary'][0], actual: null, expected: 'Accept-Encoding', reason: actual json-path does not exist
+ApiTest1.feature:18 - path: $['Vary'][0], actual: null, expected: 'Accept-Encoding', reason: actual json-path does not exist</div>
+<div class="step-row">
+<div class="step-container" id="12">
+<div class="step-ref skipped">12</div>
+<div class="step-cell skipped">And match header Connection == 'keep-alive'</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref skipped"></div>
+<div class="step-cell comment">#to verify headers we use header keyword then headername without double or single code</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref skipped"></div>
+<div class="step-cell comment"># and == 'header value'</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="13">
+<div class="step-ref skipped">13</div>
+<div class="step-cell skipped">And match header Date == '#present'</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+</div>
+<div class="scenario">
+<div class="scenario-heading" id="[4:26]">
+<div class="heading-container">
+<div class="scenario-tags"></div>
+<span class="scenario-keyword">Scenario: [4:26]</span><span class="scenario-name">header verification </span>
+</div>
+<div class="scenario-time failed">ms: 1047</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="14">
+<div class="step-ref passed">14</div>
+<div class="step-cell passed">Given url 'https://api.exchangeratesapi.io/2010-01-12'</div>
+</div>
+<div class="time-cell passed">3</div>
+</div>
+<div class="preformatted" data-parent="14">23:00:02.356 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="step-row">
+<div class="step-container" id="15">
+<div class="step-ref passed">15</div>
+<div class="step-cell passed">When method get</div>
+</div>
+<div class="time-cell passed">1016</div>
+</div>
+<div class="preformatted" data-parent="15">23:00:02.843 request:
+1 &gt; GET https://api.exchangeratesapi.io/2010-01-12
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Host: api.exchangeratesapi.io
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+23:00:03.372 response time in milliseconds: 521.05
+1 &lt; 200
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 690dd85269ce362e-MAN
+1 &lt; Connection: keep-alive
+1 &lt; Content-Type: application/json; Charset=UTF-8
+1 &lt; Date: Sat, 18 Sep 2021 22:00:04 GMT
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 &lt; Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BJF9YX9RERxJg4SBGGMWCNk2NC%2FylRtnxsRtGWVM624wRpP5TKQacK59dcOWU6WuMVYG03cHibaJd8BEaQ%2BUhToHLkH7yGHyhRNuzEmOwEujMqyd1f%2BYIXVR%2F4OM0GVWkAXwdX9MqVF2"}],"group":"cf-nel","max_age":604800}
+1 &lt; Server: cloudflare
+1 &lt; Transfer-Encoding: chunked
+1 &lt; access-control-allow-methods: GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS
+1 &lt; access-control-allow-origin: *
+1 &lt; cache-control: no-cache
+1 &lt; x-blocked-at-loadbalancer: 1
+{
+  "success": false,
+  "error": {
+    "code": 101,
+    "type": "missing_access_key",
+    "info": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="16">
+<div class="step-ref passed">16</div>
+<div class="step-cell passed">Then status 200</div>
+</div>
+<div class="time-cell passed">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="17">
+<div class="step-ref passed">17</div>
+<div class="step-cell passed">And match header Content-Type == 'application/json; Charset=UTF-8'</div>
+</div>
+<div class="time-cell passed">8</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="18">
+<div class="step-ref passed">18</div>
+<div class="step-cell passed">And print response</div>
+</div>
+<div class="time-cell passed">1</div>
+</div>
+<div class="preformatted" data-parent="18">23:00:03.385 [print] {
+  "success": false,
+  "error": {
+    "code": 101,
+    "type": "missing_access_key",
+    "info": "You have not supplied an API Access Key. [Required format: access_key=YOUR_ACCESS_KEY]"
+  }
+}</div>
+<div class="step-row">
+<div class="step-container" id="19">
+<div class="step-ref passed">19</div>
+<div class="step-cell passed">And print response.base</div>
+</div>
+<div class="time-cell passed">14</div>
+</div>
+<div class="preformatted" data-parent="19">23:00:03.399 [print]</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref failed"></div>
+<div class="step-cell comment"># verify base is EUR</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="20">
+<div class="step-ref failed">20</div>
+<div class="step-cell failed">And match response.base == 'EUR'</div>
+</div>
+<div class="time-cell failed">4</div>
+</div>
+<div class="preformatted" data-parent="20">23:00:03.404 assertion failed: path: $.base, actual: null, expected: 'EUR', reason: actual json-path does not exist
+ApiTest1.feature:34 - path: $.base, actual: null, expected: 'EUR', reason: actual json-path does not exist</div>
+<div class="step-row">
+<div class="step-container" id="21">
+<div class="step-ref skipped">21</div>
+<div class="step-cell skipped">And print response.rates</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="22">
+<div class="step-ref skipped">22</div>
+<div class="step-cell skipped">And print response.rates.USD</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container">
+<div class="step-ref skipped"></div>
+<div class="step-cell comment"># verify base is USD value</div>
+</div>
+<div class="time-cell comment"></div>
+</div>
+<div class="step-row">
+<div class="step-container" id="23">
+<div class="step-ref skipped">23</div>
+<div class="step-cell skipped">And match response.rates.USD == '#present'</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+<div class="step-row">
+<div class="step-container" id="24">
+<div class="step-ref skipped">24</div>
+<div class="step-cell skipped">And match response.rates.USD == '1.4481'</div>
+</div>
+<div class="time-cell skipped">0</div>
+</div>
+</div>
+</div>
+    
+</div>   
+  
+</body>
+
+</html>
